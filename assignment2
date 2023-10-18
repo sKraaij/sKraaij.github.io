@@ -1,0 +1,241 @@
+<p style="text-align:center"><span style="font-size:13pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><strong>MSc Metropolitan Analysis Design Engineering</strong></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:13pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><strong>Metropolitan Data 1</strong></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:13pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><strong>Stef Kraaij, Eirini Terezaki, Marco Russo</strong></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:13pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><em>Assignment 2</em></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000">We analysed the question with internet research, and we found data to answer the questions.</span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><strong>1)</strong></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>How many of the canal boats currently in use are diesel/fossil fuel driven and how many boats are electrical driven?</strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">According to the TNO report there are 7350 boats in Amsterdam. 15% of those boats are electric (around 1100 boats), 42,5 are diesel (around 3120 boats), and 42,5 are petrol (around 3120 boats).</span></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">As the paralympic will be in 2024, it is interesting to say that &ldquo;</span></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>Op basis van de trend in uitgegeven vignetten voor uitstootvrij boten, in combinatie met de monitoringsdata, wordt het aandeel uitstootvrij in 2025 op 20% ingeschat. Na 2025 verandert het beleid rondom vignetverlening, na 2025 wordt het aandeel uitstootvrij in de autonome situatie daarom gelijk verondersteld aan 2025</em></span></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">&rdquo; (TNO report, 2023).</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>2)Are there peak times for the canal boats?</strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">Late afternoon in the warm summer evening (Van Der Meer, 2023).</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>3) Try to compare the energy use of the canal boats to some other activities in the city. Use canal boats more or less energy in relation to their carbon footprint compared to these other activities?</strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">Amsterdam boats have a total CO2 emissions of 243 tons yearly. Knowing on average the emissions of CO2 are 0.3712 kg of C02 per kWh (CarbonFund, 2023), we can make some calculations:</span></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">243 tons are 243000 kg of CO2;</span></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">243000 kg CO2 in kWh is &rarr;</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">KwH_per_year</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">=</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">243000</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">/</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">0.3712</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">print</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124">(</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">KwH_per_year</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124">)</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">KwH_per_year = 654633 kWh per year</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">Compared to the tram system that uses 40 million kWh per year (GVB, 2019), boats are a less energy consuming solution. Moreover, there are 200 trams (GVB, 2019) compared to the almost 7000 boats. However, a tram transports more people at the same time than an average boat. So, even though the trams use more energy yearly, they also probably transport more people.&nbsp;</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><span style="font-size:15pt"><span style="font-family:Arial,sans-serif"><span style="color:#202124"><span style="background-color:#ffffff"><img src="https://lh7-us.googleusercontent.com/KjNo7TfyXF05Sj4QLBoizYlar8zAZ6WCtd9rwLbR9KLV6kMdFnbeI3Ud6BSBqWwG1dvMWmDJgWwnsATQ94PA-A1o_24zmEiRzAG1l_3KpvradFOBLWuwnRJfrFC5mrnqgUlHHFgy2eM6Z6clLMdpMx8" style="height:241px; width:591px" /></span></span></span></span></p>
+
+<p><br />
+&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>4) Would you consider it economically feasible?</strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">With the previous considerations, it might be economically feasible to provide more electric boats and allow tourists to move around Amsterdam with boat public transport.</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><strong>5) </strong></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>How many support boats and vehicles are needed for the Paralympics event only.</strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">Considering that in the previous Paralympics there have been 604 athlete swimmers (</span></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>Para Swimming (Formerly IPC Swimming) - About the Sport</em></span></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">, n.d.). So let&#39;s assume in our event there will be 604 athletes swimming. According to Rottnest Channel Swim (2023) a support boat is needed for each athlete. That would mean we need 604 more boats for the event only.</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">We assume that to make the race feasible only 1/10th of the athletes can compete at the same time. Boats needed:</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#c586c0"><span style="background-color:#202124">import</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#4ec9b0"><span style="background-color:#202124">math</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Total_athletes</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">=</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">604</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Ratio_athletes_boats</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">=</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">10</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Needed_boats</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">=</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Total_athletes</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">/</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Ratio_athletes_boats</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">print</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124">(</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Boats</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124">)</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">With a 10 athletes per boat ratio the amount of needed boats is 61.</span></span></span></span></p>
+
+<p><br />
+&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>6) If only clean energy can be used, how many solar panels or wind turbines are needed?</strong></span></span></span></span></p>
+
+<p><br />
+&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">We assume that the athletes that partake in the event will swim 5km in 2 hours. We found that the Paralympic 1500m average race time is 20 minutes. If we extrapolate the speed, we need around 70 minutes to finish the race. But the speed of someone swimming 1500 metres will be higher than the speed of someone swimming 5km. So paralympic athletes swimming the 5km will also be way slower. So lets say it takes 2 hours for an average racer to finish the 5km swim.</span></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">Considering that an electric boat has an engine of 26 kilowatts (</span></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>Electric Boat Motors</em></span></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">, n.d.), the energy needed for the boats for the race is:</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">26 kW * 2h * 61 boats * 10 groups = 31.720 kWh</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">kW_engine_Boat</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">=</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">26</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Average_hours</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">=</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">2</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Groups</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">=</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#4ec9b0"><span style="background-color:#202124">math</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124">.</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">ceil</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124">(</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Total_athlets </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">/ </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Boats</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124">)</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">kWh_boats_total</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">=</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">kW_engine_Boat</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">*</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Boats</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">*</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Average_hours</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">*</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Groups</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">print</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> (</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">kWh_boats_total</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124">)</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">The total amount of energy needed is 31.720 kWh.</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">Solar panels usually only produce 300 watts per square metre (Aggarwal, 2023). We consider that they produce energy during the race (20h). They will produce 300 * 20 = 6kWh. Needing 31.720 kWh for the event, we might need to install 31.720 / 6 = 5300 square metres of solar panels. To produce the amount of energy necessary in the time that the event takes place.</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">Average onshore wind turbines are 1500 kW (</span></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>How Much Power Does a Wind Turbine Generate?</em></span></span></span></span><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">, 2020), going for 20h we would get 1500kW * 20h = 30000 kWh. Needing 31.720 kWh for the event, we might need to install 2 wind turbines.</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">Coding it:</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Solar_production </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">= </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">300&nbsp;</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Production_during_race_s </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">= </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Solar_production </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">*</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">20</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Square_meters_solar </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">= </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">kWh_boats_total / Production_during_race_s</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">print (</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#e69138"><span style="background-color:#202124">&ldquo;We need &ldquo;</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">, </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Square_meters_solar</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">)</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Turbine_production</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">=</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#cccccc"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">1500000</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Production_during_race_w </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">= </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Turbine_production </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">*</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124"> </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#b5cea8"><span style="background-color:#202124">20</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Number_turbines </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#d4d4d4"><span style="background-color:#202124">= </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">kWh_boats_total / Production_during_race_w</span></span></span></span></p>
+
+<p><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">print (</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#e69138"><span style="background-color:#202124">&ldquo;We need &ldquo;</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">, </span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#9cdcfe"><span style="background-color:#202124">Number_turbines</span></span></span></span><span style="font-size:10.5pt"><span style="font-family:Consolas,sans-serif"><span style="color:#dcdcaa"><span style="background-color:#202124">)</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>7) Is it possible to accommodate these facilities within the city?</strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">The amount of space needed to produce the necessary energy with solar panels is 5300 m2. A average football field is 5000 m2. So while Amsterdam is small and needs to use space wisely it can still provide 5300 m2 of solar panels. It can be spread over rooftops in the city, or convert a football field or a park into a solar field.</span></span></span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">For the wind turbines they require less space, so there is no problem to place them within the urban borders. But considering other norms and regulations, it is better to place them outside the inhabited centres.</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>8) Would there be any effect on the water quality if there are less/no canal boats using fossil fuels?</strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:11pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff">Yes, the canal boats pollute if they have benzine or diesel engines, depositing a lot of pollutants on the surface water.</span></span></span></span></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;</p>
+
+<p><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>References:</em></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>Van Der Meer, S. (2023, January 9). When to do a Canal Cruise in Amsterdam? Amsterdam Experiences. </em></span></span></span></span><a href="https://amsterdamexperiences.nl/when-to-do-a-canal-cruise-in-amsterdam/#:~:text=The%20best%20time%20of%20day,you%20just%20can't%20miss" style="text-decoration:none"><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#1155cc"><span style="background-color:#ffffff"><em><u>https://amsterdamexperiences.nl/when-to-do-a-canal-cruise-in-amsterdam/#:~:text=The%20best%20time%20of%20day,you%20just%20can&#39;t%20miss</u></em></span></span></span></span></a><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>!</em></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>CarbonFund. (2023, August 18). Carbon and usage calculation Methods - CarbonFund. Carbonfund. </em></span></span></span></span><a href="https://carbonfund.org/calculation-methods/#:~:text=Electricity,0.3712%20kgs%20CO2e%20per%20kWh" style="text-decoration:none"><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#1155cc"><span style="background-color:#ffffff"><em><u>https://carbonfund.org/calculation-methods/#:~:text=Electricity,0.3712%20kgs%20CO2e%20per%20kWh</u></em></span></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>GVB. (2019, July 11). Tram in cijfers - Over GVB. Over GVB. </em></span></span></span></span><a href="https://web.archive.org/web/20200628214910/https://over.gvb.nl/ov-in-amsterdam/feiten-en-cijfers/tram-in-cijfers/" style="text-decoration:none"><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#1155cc"><span style="background-color:#ffffff"><em><u>https://web.archive.org/web/20200628214910/https://over.gvb.nl/ov-in-amsterdam/feiten-en-cijfers/tram-in-cijfers/</u></em></span></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>Gemeente Amsterdam (2023). Uitvoeringsagenda Uitstootvrije Mobiliteit Amsterdam 2023-2026. Gemeente Amsterdam</em></span></span></span></span></p>
+
+<p><a href="https://www.amsterdam.nl/verkeer-vervoer/milieuzone-amsterdam/uitvoeringsagenda-uitstootvrije/" style="text-decoration:none"><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#1155cc"><span style="background-color:#ffffff"><em><u>https://www.amsterdam.nl/verkeer-vervoer/milieuzone-amsterdam/uitvoeringsagenda-uitstootvrije/</u></em></span></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><em>Para Swimming (formerly IPC swimming) - about the sport. (z.d.). International Paralympic Committee. </em></span></span></span><a href="https://www.paralympic.org/swimming/about" style="text-decoration:none"><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#1155cc"><em><u>https://www.paralympic.org/swimming/about</u></em></span></span></span></a><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><em>&nbsp;</em></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>Rottnest Channel Swim. (2023, May 3). Skippers and support boats - Rottnest Channel Swim. </em></span></span></span></span><a href="https://rottnestchannelswim.com.au/skippers-and-support-boats/" style="text-decoration:none"><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#1155cc"><span style="background-color:#ffffff"><em><u>https://rottnestchannelswim.com.au/skippers-and-support-boats/</u></em></span></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>Electric boat motors. (n.d.). </em></span></span></span></span><a href="https://lynchmotors.co.uk/marine-motors/canal.html" style="text-decoration:none"><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#1155cc"><span style="background-color:#ffffff"><em><u>https://lynchmotors.co.uk/marine-motors/canal.html</u></em></span></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>Aggarwal, V. (2023). What is the output of a solar panel? EnergySage Blog. </em></span></span></span></span><a href="https://news.energysage.com/what-is-the-power-output-of-a-solar-panel/" style="text-decoration:none"><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#1155cc"><span style="background-color:#ffffff"><em><u>https://news.energysage.com/what-is-the-power-output-of-a-solar-panel/</u></em></span></span></span></span></a></p>
+
+<p><br />
+<span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#000000"><span style="background-color:#ffffff"><em>How much power does a wind turbine generate? (2020, November 9). Sciencing. </em></span></span></span></span><a href="https://sciencing.com/much-power-wind-turbine-generate-6917667.html" style="text-decoration:none"><span style="font-size:9pt"><span style="font-family:'Times New Roman',serif"><span style="color:#1155cc"><span style="background-color:#ffffff"><em><u>https://sciencing.com/much-power-wind-turbine-generate-6917667.html</u></em></span></span></span></span></a></p>
