@@ -7685,76 +7685,74 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <iframe src="central_and_abs_map.html" width="100%" height="400"></iframe>
 <p><strong>3. Find the closest bus and tram stops at the start and finish of the swimming route. How
-many people can be transported within an hour.</strong></p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The closest tram station from our event headquarters is the tram station called ‘Artis’. This station has tramlines 14, 4  and bus lines N87 and N89.</p>
-<p>Tram 4 is four times an hour either direction.
-Tram 14 is four times an hour either direction.
-Given that Bus N87 and N89 are nightbuses, we don't take them into accont for the assignment.</p>
-<p>So, <a href="https://over.gvb.nl/ov-in-amsterdam/voer-en-vaartuigen/tram-in-cijfers/"><strong>according to GVB</strong></a> the most common tram is the G13 or G14. These trams have a capacity of 125 or 150 respectively. So let's take the average which is 138.</p>
-<p>So there are 8 trams an hour, with an average capacity of 138.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">Average_Capacity</span> <span class="o">=</span> <span class="mi">138</span>
-<span class="n">Trams</span> <span class="o">=</span> <span class="mi">8</span>
-
-<span class="n">Flowrate_hour</span> <span class="o">=</span> <span class="n">Trams</span> <span class="o">*</span> <span class="n">Average_Capacity</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">Flowrate_hour</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>1104
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The amount of people that can be transported within an hour through these trams is 1104 people.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+  many people can be transported within an hour.</strong></p>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+  <div class="jp-Cell-inputWrapper" tabindex="0">
+  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+  </div>
+  <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+  </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+  <p>The closest tram/bus station from our end point is called ‘kattenburgerstraat’. This station has busline 43 and N89.</p>
+  <p>Bus 43 comes four times an hour either direction.
+  Bus N89 is a nighbus so not important for this assignment.</p>
+  <p><a href="https://over.gvb.nl/ov-in-amsterdam/voer-en-vaartuigen/tram-in-cijfers/"><strong>According to GVB</strong></a> there are two sorts of buses driving around Amsterdam at the moment. The standard bus and busses that are geleed (consist of two parts). The standard bus has a capacity of 85 people, the geleed bus has a capacity of 150 people. So let’s assume the municipality of Amsterdam will use the bigger busses for the event.</p>
+  </div>
+  </div>
+  </div>
+  </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+  <div class="jp-Cell-inputWrapper" tabindex="0">
+  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+  </div>
+  <div class="jp-InputArea jp-Cell-inputArea">
+  <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+  <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+  <div class="cm-editor cm-s-jupyter">
+  <div class="highlight hl-ipython3"><pre><span></span><span class="n">Average_Capacity</span> <span class="o">=</span> <span class="mi">150</span>
+  <span class="n">Trams</span> <span class="o">=</span> <span class="mi">8</span>
+  
+  <span class="n">Flowrate_hour</span> <span class="o">=</span> <span class="n">Trams</span> <span class="o">*</span> <span class="n">Average_Capacity</span>
+  
+  <span class="nb">print</span><span class="p">(</span><span class="n">Flowrate_hour</span><span class="p">)</span>
+  </pre></div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="jp-Cell-outputWrapper">
+  <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+  </div>
+  <div class="jp-OutputArea jp-Cell-outputArea">
+  <div class="jp-OutputArea-child">
+  <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+  <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+  <pre>1200
+  </pre>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+  <div class="jp-Cell-inputWrapper" tabindex="0">
+  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+  </div>
+  <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+  </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+  <p>The amount of people that can be transported within an hour through these trams is 1200 people.</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+  <div class="jp-Cell-inputWrapper" tabindex="0">
+  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+  </div>
+  <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+  </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>4. Can you find which bus and tram lines these are, and can you find their routes?</strong></p>
 </div>
 </div>
