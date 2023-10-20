@@ -7808,6 +7808,52 @@ a.anchor-link {
   <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
   </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">  
 <iframe src="labeled_map.html" width="100%" height="400"></iframe>
+<p>To show the stops in the map we have used this code:</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">folium</span>
+
+
+<span class="n">coordinate1</span> <span class="o">=</span> <span class="p">(</span><span class="mf">52.347112</span><span class="p">,</span> <span class="mf">4.911001</span><span class="p">)</span>  
+<span class="n">coordinate2</span> <span class="o">=</span> <span class="p">(</span><span class="mf">52.372397</span><span class="p">,</span> <span class="mf">4.917974</span><span class="p">)</span>  
+
+
+<span class="c1"># Create a map centered between the two coordinates</span>
+<span class="n">map_center</span> <span class="o">=</span> <span class="n">folium</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="n">location</span><span class="o">=</span><span class="p">((</span><span class="n">coordinate1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">coordinate2</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="p">(</span><span class="n">coordinate1</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">coordinate2</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">),</span> <span class="n">zoom_start</span><span class="o">=</span><span class="mi">13</span><span class="p">)</span>
+
+
+<span class="c1"># Add a green marker for the starting point with a "Starting Point" label</span>
+<span class="n">folium</span><span class="o">.</span><span class="n">Marker</span><span class="p">(</span><span class="n">coordinate1</span><span class="p">,</span> <span class="n">icon</span><span class="o">=</span><span class="n">folium</span><span class="o">.</span><span class="n">Icon</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">'green'</span><span class="p">),</span> <span class="n">popup</span><span class="o">=</span><span class="s1">'Closest Bus Station to Starting Point'</span><span class="p">)</span><span class="o">.</span><span class="n">add_to</span><span class="p">(</span><span class="n">map_center</span><span class="p">)</span>
+
+
+<span class="c1"># Add a blue marker for the ending point with an "Ending Point" label</span>
+<span class="n">folium</span><span class="o">.</span><span class="n">Marker</span><span class="p">(</span><span class="n">coordinate2</span><span class="p">,</span> <span class="n">icon</span><span class="o">=</span><span class="n">folium</span><span class="o">.</span><span class="n">Icon</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">'blue'</span><span class="p">),</span> <span class="n">popup</span><span class="o">=</span><span class="s1">'Closest Bus Station to Ending Point'</span><span class="p">)</span><span class="o">.</span><span class="n">add_to</span><span class="p">(</span><span class="n">map_center</span><span class="p">)</span>
+
+
+<span class="c1"># Specify the file path to save the map</span>
+<span class="n">file_path</span> <span class="o">=</span> <span class="s2">"C:</span><span class="se">\\</span><span class="s2">Users</span><span class="se">\\</span><span class="s2">eterezakii</span><span class="se">\\</span><span class="s2">Desktop</span><span class="se">\\</span><span class="s2">AMS Stuff</span><span class="se">\\</span><span class="s2">labeled_map.html"</span>
+<span class="n">map_center</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>4. Can you find which bus and tram lines these are, and can you find their routes?</strong></p>
 </div>
 </div>
