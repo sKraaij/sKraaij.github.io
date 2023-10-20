@@ -7482,6 +7482,24 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<header>
+<div style="text-align: center;">
+<h1> MSc Metropolitan Analysis Design Engineering </h1>
+<h1> Metropolitan Data 1 </h1>
+<h3> Stef Kraaij, Eirini Terezaki, Marco Russo </h3>
+<h4> <i>Assignment 3</i> </h4>
+</div>
+</header>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>For the forth assignment, we created a swimming path using some specific points and coordinates on the map. We created a html file, that can be opened with a web browser. That file contains a map centred around Amsterdam. With the list of the specific coordinates we choose, we created a polyline object that connects them. To reach that result we used this code:</p>
 </div>
 </div>
@@ -7707,7 +7725,7 @@ Given that Bus N87 and N89 are nightbuses, we don't take them into accont for th
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>We made a map just like in the first question. More specifically,we updated the code which we used for the mapping of our path. Now both the swimming route and the tram route are visible on the map in the html file. The difference now is that along with the swimming path, the route of Tram 14 is also visible.</p>
+<p>We made a map just like in the first question. More specifically, we updated the code which we used for the mapping of our path. Now both the swimming route and the tram route are visible on the map in the html file. The difference now is that along with the swimming path, the route of Tram 14 is also visible.</p>
 </div>
 </div>
 </div>
@@ -7853,7 +7871,9 @@ centrality calculation makes the most sense.</strong></p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The number of horeca we've found within 1km distance from the end point is 115</p>
+<p>To find this answer we got a dataset from the municipality of amsterdam. This
+<a href="https://maps.amsterdam.nl/functiekaart/"><strong>dataset</strong></a> can be found here.</p>
+<p>We assumed that the distance that you can walk in 10 minutes is 1km. So we looked at all the horeca options within one kilometer of our finish line.</p>
 </div>
 </div>
 </div>
@@ -7874,7 +7894,7 @@ centrality calculation makes the most sense.</strong></p>
 
 <span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">'display.max_rows'</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"FUNCTIEKAART.csv"</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">';'</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"C:</span><span class="se">\\</span><span class="s2">Users</span><span class="se">\\</span><span class="s2">Stef_</span><span class="se">\\</span><span class="s2">OneDrive</span><span class="se">\\</span><span class="s2">Documenten</span><span class="se">\\</span><span class="s2">MADE</span><span class="se">\\</span><span class="s2">Metropolitan Data</span><span class="se">\\</span><span class="s2">Github repository Data 1</span><span class="se">\\</span><span class="s2">Assignment 4 Transport</span><span class="se">\\</span><span class="s2">FUNCTIEKAART.csv"</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">';'</span><span class="p">)</span>
 
 
 <span class="n">horeca_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'Functie'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'Horeca'</span><span class="p">]</span>
@@ -7915,73 +7935,126 @@ centrality calculation makes the most sense.</strong></p>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">FileNotFoundError</span>                         Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">c:\Users\eterezakii\Desktop\AMS Stuff\Metropolitan Data 1\assign 4\Untitled-1.ipynb Cell 22</span> line <span class="ansi-cyan-fg">1
-</span><span class="ansi-green-fg">      &lt;a href='vscode-notebook-cell:/c%3A/Users/eterezakii/Desktop/AMS%20Stuff/Metropolitan%20Data%201/assign%204/Untitled-1.ipynb#X30sZmlsZQ%3D%3D?line=5'&gt;6&lt;/a&gt;</span> pd.set_option('display.max_rows', None)
-<span class="ansi-green-fg">      &lt;a href='vscode-notebook-cell:/c%3A/Users/eterezakii/Desktop/AMS%20Stuff/Metropolitan%20Data%201/assign%204/Untitled-1.ipynb#X30sZmlsZQ%3D%3D?line=7'&gt;8&lt;/a&gt;</span> pd.set_option('display.max_rows', None)
-<span class="ansi-green-intense-fg ansi-bold">---&gt; &lt;a href='vscode-notebook-cell:/c%3A/Users/eterezakii/Desktop/AMS%20Stuff/Metropolitan%20Data%201/assign%204/Untitled-1.ipynb#X30sZmlsZQ%3D%3D?line=9'&gt;10&lt;/a&gt;</span> df = pd.read_csv("C:\\Users\\Stef_\\OneDrive\\Documenten\\MADE\\Metropolitan Data\\Github repository Data 1\\Assignment 4 Transport\\FUNCTIEKAART.csv", delimiter=';')
-<span class="ansi-green-fg">     &lt;a href='vscode-notebook-cell:/c%3A/Users/eterezakii/Desktop/AMS%20Stuff/Metropolitan%20Data%201/assign%204/Untitled-1.ipynb#X30sZmlsZQ%3D%3D?line=12'&gt;13&lt;/a&gt;</span> horeca_df = df[df['Functie'] == 'Horeca']
-<span class="ansi-green-fg">     &lt;a href='vscode-notebook-cell:/c%3A/Users/eterezakii/Desktop/AMS%20Stuff/Metropolitan%20Data%201/assign%204/Untitled-1.ipynb#X30sZmlsZQ%3D%3D?line=14'&gt;15&lt;/a&gt;</span> end_location = (52.373275, 4.916235)
-
-File <span class="ansi-green-intense-fg ansi-bold">c:\Users\eterezakii\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parsers\readers.py:948</span>, in <span class="ansi-cyan-fg">read_csv</span><span class="ansi-blue-intense-fg ansi-bold">(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)</span>
-<span class="ansi-green-fg">    935</span> kwds_defaults = _refine_defaults_read(
-<span class="ansi-green-fg">    936</span>     dialect,
-<span class="ansi-green-fg">    937</span>     delimiter,
-<span class="ansi-green-intense-fg ansi-bold">   (...)</span>
-<span class="ansi-green-fg">    944</span>     dtype_backend=dtype_backend,
-<span class="ansi-green-fg">    945</span> )
-<span class="ansi-green-fg">    946</span> kwds.update(kwds_defaults)
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 948</span> return _read(filepath_or_buffer, kwds)
-
-File <span class="ansi-green-intense-fg ansi-bold">c:\Users\eterezakii\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parsers\readers.py:611</span>, in <span class="ansi-cyan-fg">_read</span><span class="ansi-blue-intense-fg ansi-bold">(filepath_or_buffer, kwds)</span>
-<span class="ansi-green-fg">    608</span> _validate_names(kwds.get("names", None))
-<span class="ansi-green-fg">    610</span> # Create the parser.
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 611</span> parser = TextFileReader(filepath_or_buffer, **kwds)
-<span class="ansi-green-fg">    613</span> if chunksize or iterator:
-<span class="ansi-green-fg">    614</span>     return parser
-
-File <span class="ansi-green-intense-fg ansi-bold">c:\Users\eterezakii\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parsers\readers.py:1448</span>, in <span class="ansi-cyan-fg">TextFileReader.__init__</span><span class="ansi-blue-intense-fg ansi-bold">(self, f, engine, **kwds)</span>
-<span class="ansi-green-fg">   1445</span>     self.options["has_index_names"] = kwds["has_index_names"]
-<span class="ansi-green-fg">   1447</span> self.handles: IOHandles | None = None
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1448</span> self._engine = self._make_engine(f, self.engine)
-
-File <span class="ansi-green-intense-fg ansi-bold">c:\Users\eterezakii\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parsers\readers.py:1705</span>, in <span class="ansi-cyan-fg">TextFileReader._make_engine</span><span class="ansi-blue-intense-fg ansi-bold">(self, f, engine)</span>
-<span class="ansi-green-fg">   1703</span>     if "b" not in mode:
-<span class="ansi-green-fg">   1704</span>         mode += "b"
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1705</span> self.handles = get_handle(
-<span class="ansi-green-fg">   1706</span>     f,
-<span class="ansi-green-fg">   1707</span>     mode,
-<span class="ansi-green-fg">   1708</span>     encoding=self.options.get("encoding", None),
-<span class="ansi-green-fg">   1709</span>     compression=self.options.get("compression", None),
-<span class="ansi-green-fg">   1710</span>     memory_map=self.options.get("memory_map", False),
-<span class="ansi-green-fg">   1711</span>     is_text=is_text,
-<span class="ansi-green-fg">   1712</span>     errors=self.options.get("encoding_errors", "strict"),
-<span class="ansi-green-fg">   1713</span>     storage_options=self.options.get("storage_options", None),
-<span class="ansi-green-fg">   1714</span> )
-<span class="ansi-green-fg">   1715</span> assert self.handles is not None
-<span class="ansi-green-fg">   1716</span> f = self.handles.handle
-
-File <span class="ansi-green-intense-fg ansi-bold">c:\Users\eterezakii\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py:863</span>, in <span class="ansi-cyan-fg">get_handle</span><span class="ansi-blue-intense-fg ansi-bold">(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)</span>
-<span class="ansi-green-fg">    858</span> elif isinstance(handle, str):
-<span class="ansi-green-fg">    859</span>     # Check whether the filename is to be opened in binary mode.
-<span class="ansi-green-fg">    860</span>     # Binary mode does not support 'encoding' and 'newline'.
-<span class="ansi-green-fg">    861</span>     if ioargs.encoding and "b" not in ioargs.mode:
-<span class="ansi-green-fg">    862</span>         # Encoding
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 863</span>         handle = open(
-<span class="ansi-green-fg">    864</span>             handle,
-<span class="ansi-green-fg">    865</span>             ioargs.mode,
-<span class="ansi-green-fg">    866</span>             encoding=ioargs.encoding,
-<span class="ansi-green-fg">    867</span>             errors=errors,
-<span class="ansi-green-fg">    868</span>             newline="",
-<span class="ansi-green-fg">    869</span>         )
-<span class="ansi-green-fg">    870</span>     else:
-<span class="ansi-green-fg">    871</span>         # Binary mode
-<span class="ansi-green-fg">    872</span>         handle = open(handle, ioargs.mode)
-
-<span class="ansi-red-intense-fg ansi-bold">FileNotFoundError</span>: [Errno 2] No such file or directory: 'C:\\Users\\Stef_\\OneDrive\\Documenten\\MADE\\Metropolitan Data\\Github repository Data 1\\Assignment 4 Transport\\FUNCTIEKAART.csv'</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>The number of horeca we've found within 1km distance from the end point is 115
+Here is the list of the found horecas:
+       OBJECTNUMMER                               Adres                                       Gebruiksdoel                      Objectsoort
+3405           3406          Binnen Bantammerstraat 1/H                                 bijeenkomstfunctie                       Restaurant
+3407           3408         Binnen Bantammerstraat 11/H                                 bijeenkomstfunctie                       Restaurant
+3413           3414           Binnen Bantammerstraat 27                                 bijeenkomstfunctie                       Restaurant
+3417           3418          Binnen Bantammerstraat 7/H                                 bijeenkomstfunctie                       Restaurant
+3419           3420           Binnen Bantammerstraat 9A                                 bijeenkomstfunctie                         Cafe/bar
+5984           5985                      Cruquiuskade 1                                 bijeenkomstfunctie                       Restaurant
+6255           6256                 Czaar Peterstraat 1                                 bijeenkomstfunctie                       Restaurant
+6259           6260             Czaar Peterstraat 106/H                                 bijeenkomstfunctie                         Cafe/bar
+6277           6278              Czaar Peterstraat 135D                                   industriefunctie                       Restaurant
+6299           6300                Czaar Peterstraat 21                                 bijeenkomstfunctie                       Restaurant
+6323           6324                Czaar Peterstraat 74                                 bijeenkomstfunctie                       Restaurant
+6325           6326              Czaar Peterstraat 78/H                     woonfunctie|bijeenkomstfunctie               Kantoor|Restaurant
+6334           6335                Czaar Peterstraat 96                                      winkelfunctie                        Cafetaria
+7257           7258                De Ruijterkade 105/1                                     kantoorfunctie                          Kantoor
+7258           7259                De Ruijterkade 105/H                                 bijeenkomstfunctie                         Cafe/bar
+7738           7739                       Dijksgracht 4                                 bijeenkomstfunctie                         Cafe/bar
+9206           9207                     Entrepotdok 36B                                 bijeenkomstfunctie                       Restaurant
+9227           9228                     Entrepotdok 64A                                 bijeenkomstfunctie                         Cafe/bar
+9233           9234                       Entrepotdok 7                                 bijeenkomstfunctie                       Restaurant
+10316         10317                     Geldersekade 23                                 bijeenkomstfunctie                       Restaurant
+10317         10318                     Geldersekade 29                                 bijeenkomstfunctie                       Restaurant
+10325         10326                    Geldersekade 5/H                                 bijeenkomstfunctie                       Restaurant
+10343         10344                   Geldersekade 93/H                                 bijeenkomstfunctie                       Restaurant
+10345         10346                   Geldersekade 95/H                                 bijeenkomstfunctie                         Cafe/bar
+12022         12023               Harry Banninkstraat 1                                      winkelfunctie                       Restaurant
+13700         13701                   Hoogte Kadijk 8/O                                 bijeenkomstfunctie                        Cafetaria
+14363         14364               Jacob Bontiusplaats 7                                 bijeenkomstfunctie                              NaN
+15956         15957                     Jollemanhof 154                                 bijeenkomstfunctie                       Restaurant
+15980         15981                       Jollemanhof 9                  bijeenkomstfunctie|kantoorfunctie                          Kantoor
+16207         16208                     Kadijksplein 11                                 bijeenkomstfunctie                       Restaurant
+16209         16210                    Kadijksplein 16B                                 bijeenkomstfunctie                       Restaurant
+16211         16212                      Kadijksplein 4                                 bijeenkomstfunctie               Kantoor|Restaurant
+16212         16213                      Kadijksplein 5                                 bijeenkomstfunctie                         Cafe/bar
+16214         16215                      Kadijksplein 9                                        woonfunctie                       Restaurant
+16653         16654                Kattenburgerplein 39                                 bijeenkomstfunctie                         Cafe/bar
+18043         18044                    Koningsstraat 25                                      winkelfunctie                       Restaurant
+18045         18046                  Koningsstraat 29/H                                 bijeenkomstfunctie                       Restaurant
+18051         18052                  Koningsstraat 54/H                                 bijeenkomstfunctie                       Restaurant
+18085         18086            Korte Koningsstraat 13/H                                      winkelfunctie                         Cafe/bar
+18464         18465                  Krom Boomssloot 47                                 bijeenkomstfunctie                       Restaurant
+20532         20533                     Markenplein 30A                                 bijeenkomstfunctie                       Restaurant
+21694         21695                     Muiderstraat 18                                 bijeenkomstfunctie                           Woning
+23884         23885            Oostelijke Handelskade 4                                 bijeenkomstfunctie              Restaurant|Cafe/bar
+23908         23909              Oostenburgergracht 185                                      winkelfunctie                       Restaurant
+23909         23910              Oostenburgergracht 187                                 bijeenkomstfunctie                         Cafe/bar
+23911         23912                Oostenburgergracht 3                                 bijeenkomstfunctie                         Cafe/bar
+23912         23913               Oostenburgergracht 31                                 bijeenkomstfunctie                       Restaurant
+23913         23914               Oostenburgergracht 37                                 bijeenkomstfunctie                       Restaurant
+23921         23922               Oostenburgergracht 71                                 bijeenkomstfunctie                       Restaurant
+23923         23924               Oostenburgergracht 75                                 bijeenkomstfunctie               Kantoor|Restaurant
+23945         23946            Oostenburgervoorstraat 1  bijeenkomstfunctie|winkelfunctie|kantoorfuncti...  Winkel/verkoopruimte|Restaurant
+23965         23966                    Oosterdokskade 1                                 bijeenkomstfunctie                         Cafe/bar
+23967         23968                  Oosterdokskade 131                                      winkelfunctie             Winkel/verkoopruimte
+23968         23969                  Oosterdokskade 133                                 bijeenkomstfunctie                       Restaurant
+23969         23970                  Oosterdokskade 135                                 bijeenkomstfunctie                       Restaurant
+23970         23971                  Oosterdokskade 137                                 bijeenkomstfunctie                         Cafe/bar
+23972         23973                  Oosterdokskade 145                                 bijeenkomstfunctie                       Restaurant
+23976         23977                    Oosterdokskade 3                                 bijeenkomstfunctie                              NaN
+24791         24792                      Oude Waal 11/H                                 bijeenkomstfunctie                       Restaurant
+24792         24793                      Oude Waal 12/H                                 bijeenkomstfunctie                              NaN
+26122         26123                    Peperstraat 10/H                                 bijeenkomstfunctie                       Restaurant
+26125         26126                      Peperstraat 23                                 bijeenkomstfunctie                       Restaurant
+26210         26211                  Piet Heinkade 179A                                 bijeenkomstfunctie                       Restaurant
+26211         26212                  Piet Heinkade 179B                                 bijeenkomstfunctie                              NaN
+26239         26240                    Piet Heinkade 29                                     kantoorfunctie                        Cafetaria
+26246         26247                     Piet Heinkade 4                            overige gebruiksfunctie                              NaN
+26247         26248                    Piet Heinkade 41                                   industriefunctie                    Zaal (horeca)
+26249         26250                    Piet Heinkade 47                                   industriefunctie                       Restaurant
+26252         26253                     Piet Heinkade 6                            overige gebruiksfunctie                              NaN
+26253         26254                    Piet Heinkade 63                                 bijeenkomstfunctie                              NaN
+26272         26273                     Piet Heinkade 8                                 bijeenkomstfunctie                              NaN
+26770         26771              Plantage Kerklaan 10/O                                 bijeenkomstfunctie                       Restaurant
+26775         26776               Plantage Kerklaan 2/H                                 bijeenkomstfunctie                       Restaurant
+26779         26780              Plantage Kerklaan 26/H                                 bijeenkomstfunctie                       Restaurant
+26780         26781              Plantage Kerklaan 28/H                                 bijeenkomstfunctie                       Restaurant
+26782         26783              Plantage Kerklaan 32/H                                 bijeenkomstfunctie                       Restaurant
+26784         26785              Plantage Kerklaan 35/H                                 bijeenkomstfunctie             Cafetaria|Werkplaats
+26785         26786                Plantage Kerklaan 36                                     kantoorfunctie                              NaN
+26786         26787              Plantage Kerklaan 37/H                                 bijeenkomstfunctie                       Restaurant
+26789         26790                Plantage Kerklaan 41                                 bijeenkomstfunctie                       Restaurant
+26791         26792             Plantage Kerklaan 49A/H                                      winkelfunctie                       Restaurant
+26793         26794             Plantage Kerklaan 61C/1                                 bijeenkomstfunctie                         Cafe/bar
+26803         26804             Plantage Middenlaan 22A                                 bijeenkomstfunctie               Kantoor|Restaurant
+26811         26812            Plantage Middenlaan 30/H                                 bijeenkomstfunctie                       Restaurant
+26816         26817              Plantage Middenlaan 37                                 bijeenkomstfunctie                       Restaurant
+26820         26821             Plantage Middenlaan 44E                                 bijeenkomstfunctie                          Kantoor
+26852         26853          Plantage Muidergracht 69/H                                 bijeenkomstfunctie                       Restaurant
+26855         26856              Plantage Parklaan 10/H                                 bijeenkomstfunctie                       Restaurant
+27434         27435             Prins Hendrikkade 102/H                                 bijeenkomstfunctie                       Restaurant
+27436         27437              Prins Hendrikkade 106A                                 bijeenkomstfunctie                       Restaurant
+27441         27442             Prins Hendrikkade 121/H                     woonfunctie|bijeenkomstfunctie   Woning in niet-woning|Cafe/bar
+27478         27479               Prins Hendrikkade 194                                 bijeenkomstfunctie                         Cafe/bar
+27533         27534                Prins Hendrikkade 96                                 bijeenkomstfunctie                         Cafe/bar
+27534         27535                Prins Hendrikkade 97                                 bijeenkomstfunctie                       Restaurant
+28233         28234                        Rapenburg 18                                 bijeenkomstfunctie                         Cafe/bar
+28246         28247                Rapenburgerplein 1/H                     woonfunctie|bijeenkomstfunctie                         Cafe/bar
+28248         28249                  Rapenburgerplein 3                                      winkelfunctie                       Restaurant
+28249         28250                Rapenburgerplein 6/H                                 bijeenkomstfunctie                       Restaurant
+28250         28251                 Rapenburgerplein 83                                 bijeenkomstfunctie                         Cafe/bar
+28255         28256               Rapenburgerstraat 169                                 bijeenkomstfunctie                       Restaurant
+29894         29895                  Sarphatistraat 720                                 bijeenkomstfunctie                       Restaurant
+30174         30175                 Schippersgracht 6/H                                 bijeenkomstfunctie                       Restaurant
+32536         32537                    Sumatrakade 1295                                 bijeenkomstfunctie                       Restaurant
+33212         33213                      Tosaristraat 1                                 bijeenkomstfunctie                       Restaurant
+34032         34033  Tweede Wittenburgerdwarsstraat 133                                      winkelfunctie                       Restaurant
+34376         34377             Valkenburgerstraat 223D                                 bijeenkomstfunctie                       Restaurant
+34381         34382                Valkenburgerstraat 6                                 bijeenkomstfunctie                         Cafe/bar
+34385         34386              Valkenburgerstraat 8/H                                 bijeenkomstfunctie                       Restaurant
+35649         35650                        Veemkade 368                                 bijeenkomstfunctie                              NaN
+35661         35662                        Veemkade 576                                 bijeenkomstfunctie                       Restaurant
+35936         35937                         VOC-kade 26                                 bijeenkomstfunctie               Kantoor|Restaurant
+37574         37575     Willem Frederik Hermansstraat 2                                 bijeenkomstfunctie                              NaN
+37792         37793                    Windroosplein 73                                   industriefunctie                 Kantoor|Cafe/bar
+37927         37928              Wittenburgergracht 143                                      winkelfunctie                       Restaurant
+38196         38197                   Zeeburgerstraat 1                                 bijeenkomstfunctie                       Restaurant
+</pre>
 </div>
 </div>
 </div>
@@ -7993,7 +8066,7 @@ File <span class="ansi-green-intense-fg ansi-bold">c:\Users\eterezakii\AppData\L
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>With this code we were able to print the coordinates the points of interest and then use them to create a map with them so we can visually see where they are in the map.</p>
+<p>With this code we were able to print all the points of interest in a list. We add these points on a map. This map also contains a circle that has a radius of 1 kilometer from the center.</p>
 </div>
 </div>
 </div>
@@ -8152,6 +8225,18 @@ File <span class="ansi-green-intense-fg ansi-bold">c:\Users\eterezakii\AppData\L
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>As with previous questions, we again create a file that can be opened with a web browser. The file contains a map of Amsterdam that has all the horeca points on it.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>References</strong></p>
+<p>Gemeente Amsterdam Klaas-Bindert de Haan. (z.d.-b). Niet-woonfuncties (Functiekaart). Maps.Amsterdam. <a href="https://maps.amsterdam.nl/functiekaart/">https://maps.amsterdam.nl/functiekaart/</a></p>
 </div>
 </div>
 </div>
