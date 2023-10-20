@@ -7511,10 +7511,10 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>1. What Amsterdam will receive from tourist tax if the event lasts a week and you will have 30.000 visitors?</strong></p>
-<p>According to <a href="https://esb.nu/grootste-steden-heffen-hoogste-toeristenbelasting/#:~:text=Gemiddeld%20betaal%20je%20als%20toerist,aantal%20gemeenten%20kent%20geen%20toeristenbelasting"><strong>this website</strong></a>, the average tourist tax is 3,27 euros per night.
+<p>According to <a href="https://esb.nu/grootste-steden-heffen-hoogste-toeristenbelasting/#:~:text=Gemiddeld%20betaal%20je%20als%20toerist,aantal%20gemeenten%20kent%20geen%20toeristenbelasting"><strong>Hoeben (2023)</strong></a>, the average tourist tax is 3,27 euros per night.
 The event lasts 7 nights, moreover we know that the total number of visitors is 30,000.
-€3,27 * 7 nights * 30,000 visitors = €686,700.00
-Here a little code to calculate this:</p>
+€3,27 * 7 nights * 30,000 visitors = €686,700.00</p>
+<p>Here a little code to calculate this:</p>
 </div>
 </div>
 </div>
@@ -7659,7 +7659,7 @@ Here the first part of the output:</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img src="neighbourhoods.png"/></p>
+<p><img alt="No description has been provided for this image" src="Assignment_3/neighbourhoods.png"/></p>
 </div>
 </div>
 </div>
@@ -7738,13 +7738,14 @@ The most common street name in the first 100 AirBnB listings is Oudezijds Voorbu
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>4. Try to cross reference the data from the AirBnB dataset with the BBGA. Can you figure out if all apartments of AirBnB are designated as housing? Which number of apartments are not rented out all the time but are also used as normal housing?</strong></p>
-<p>The <a href="https://api.data.amsterdam.nl/dcatd/datasets/rl6-35tFAw2Ljw/purls/1"><strong>BBGA has data</strong></a> about the total number of Airbnb listings (houses or rooms) that were at least once offered on the airbnb platform once a year. That total is 28528 listings.
+<p>The Dataset: Basisbestand Gebieden Amsterdam (<a href="https://api.data.amsterdam.nl/dcatd/datasets/rl6-35tFAw2Ljw/purls/1"><strong>BBGA</strong></a>)
+has information about the total number of Airbnb listings (houses or rooms) that were at least once offered on the airbnb platform once a year. That total is 28528 listings.
 But according to AirBnB the total listings is 8386.
 So that makes around 20.000 listings that are also used as normal housing.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7758,6 +7759,19 @@ So that makes around 20.000 listings that are also used as normal housing.</p>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">Not_airbnb_listed</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>20142
+</pre>
 </div>
 </div>
 </div>
@@ -7851,12 +7865,12 @@ So that makes around 20.000 listings that are also used as normal housing.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>5. How many hotel rooms should be built if Amsterdam wants to accommodate the same number of tourists?</strong></p>
-<p><a href="https://www.statista.com/statistics/960690/number-of-guests-at-accommodations-in-amsterdam-by-accommodation-type/#:~:text=Premium%20statistics-,Number%20of%20guests%20at%20accommodations,(Netherlands"><strong>According to AirBnB</strong></a> there were 800.000 tourists using Airbnb in Amsterdam during 2017.<br/>
+<p>According to <a href="https://www.statista.com/statistics/960690/number-of-guests-at-accommodations-in-amsterdam-by-accommodation-type/#:~:text=Premium%20statistics-,Number%20of%20guests%20at%20accommodations,(Netherlands"><strong>Statista (2023)</strong></a>%202017%2C%20by%20type&amp;text=This%20statistic%20illustrates%20the%20number,guests%20stayed%20in%20an%20) there were 800.000 tourists using Airbnb in Amsterdam during 2017.<br/>
 Having this information as a given and in order to calculate how many hotel rooms should be created to accommodate the number of tourists that choose AirBnB as accommodation, we assumed that all the visitors come at different times of the year and that the average hotel room can host 2 people.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7871,6 +7885,19 @@ Having this information as a given and in order to calculate how many hotel room
 
 <span class="nb">print</span><span class="p">(</span><span class="n">Needed_hotelrooms</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>7692.307692307692
+</pre>
 </div>
 </div>
 </div>
@@ -7894,7 +7921,7 @@ Having this information as a given and in order to calculate how many hotel room
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>6. How many different licences are issued?</strong></p>
-<p>Here is the code, considering the code written before.</p>
+<p>We used a code to find the total unique licenses in the dataset.</p>
 </div>
 </div>
 </div>
@@ -7925,6 +7952,21 @@ Having this information as a given and in order to calculate how many hotel room
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>References</strong></p>
+<p>Dataset: Basisbestand Gebieden Amsterdam (BBGA) | Website onderzoek en statistiek. (z.d.). <a href="https://onderzoek.amsterdam.nl/dataset/basisbestand-gebieden-amsterdam-bbga">https://onderzoek.amsterdam.nl/dataset/basisbestand-gebieden-amsterdam-bbga</a></p>
+<p>Hoeben, C. (2023). Grootste steden heffen hoogste toeristenbelasting. ESB. <a href="https://esb.nu/grootste-steden-heffen-hoogste-toeristenbelasting/#:~:text=Gemiddeld%20betaal%20je%20als%20toerist,aantal%20gemeenten%20kent%20geen%20toeristenbelasting">https://esb.nu/grootste-steden-heffen-hoogste-toeristenbelasting/#:~:text=Gemiddeld%20betaal%20je%20als%20toerist,aantal%20gemeenten%20kent%20geen%20toeristenbelasting</a></p>
+<p>Statista. (2023, 2 januari). Number of guests at accommodations in Amsterdam (Netherlands) 2017, by type. <a href="https://www.statista.com/statistics/960690/number-of-guests-at-accommodations-in-amsterdam-by-accommodation-type/#:~:text=Premium%20statistics-,Number%20of%20guests%20at%20accommodations,(Netherlands)%202017%2C%20by%20type&amp;text=This%20statistic%20illustrates%20the%20number,guests%20stayed%20in%20an%20">https://www.statista.com/statistics/960690/number-of-guests-at-accommodations-in-amsterdam-by-accommodation-type/#:~:text=Premium%20statistics-,Number%20of%20guests%20at%20accommodations,(Netherlands)%202017%2C%20by%20type&amp;text=This%20statistic%20illustrates%20the%20number,guests%20stayed%20in%20an%20</a></p>
+</div>
+</div>
+</div>
+</div>
 </main>
 </body>
 </html>
+
