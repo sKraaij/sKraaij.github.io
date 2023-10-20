@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_44efb03ccf3ca1b244bbc26cc0dc139e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_44efb03ccf3ca1b244bbc26cc0dc139e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_44efb03ccf3ca1b244bbc26cc0dc139e = L.map(
+                "map_44efb03ccf3ca1b244bbc26cc0dc139e",
+                {
+                    center: [52.3597545, 4.9144875],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ea34293f933cad30e391885edf75c02f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_44efb03ccf3ca1b244bbc26cc0dc139e);
+        
+    
+            var marker_340648ff6eaf30784c114a1ad279f664 = L.marker(
+                [52.347112, 4.911001],
+                {}
+            ).addTo(map_44efb03ccf3ca1b244bbc26cc0dc139e);
+        
+    
+            var icon_337a7ee815f486f86a5c07bda49f7211 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_340648ff6eaf30784c114a1ad279f664.setIcon(icon_337a7ee815f486f86a5c07bda49f7211);
+        
+    
+        var popup_ec6ea0f5f68d744d77bb3f6b0f758e7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_770c276b2764803f494cb2368c43d19c = $(`<div id="html_770c276b2764803f494cb2368c43d19c" style="width: 100.0%; height: 100.0%;">Closest Bus Station to Starting Point</div>`)[0];
+                popup_ec6ea0f5f68d744d77bb3f6b0f758e7c.setContent(html_770c276b2764803f494cb2368c43d19c);
+            
+        
+
+        marker_340648ff6eaf30784c114a1ad279f664.bindPopup(popup_ec6ea0f5f68d744d77bb3f6b0f758e7c)
+        ;
+
+        
+    
+    
+            var marker_88c1f3bee635a001c0be0aae77156b6d = L.marker(
+                [52.372397, 4.917974],
+                {}
+            ).addTo(map_44efb03ccf3ca1b244bbc26cc0dc139e);
+        
+    
+            var icon_066bad87cd818186c327e9d0898de398 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88c1f3bee635a001c0be0aae77156b6d.setIcon(icon_066bad87cd818186c327e9d0898de398);
+        
+    
+        var popup_7a5c61996d197762b978e2cc3b5d8ec3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d840f4a9aab981ba037f88b97655df3 = $(`<div id="html_4d840f4a9aab981ba037f88b97655df3" style="width: 100.0%; height: 100.0%;">Closest Bus Station to Ending Point</div>`)[0];
+                popup_7a5c61996d197762b978e2cc3b5d8ec3.setContent(html_4d840f4a9aab981ba037f88b97655df3);
+            
+        
+
+        marker_88c1f3bee635a001c0be0aae77156b6d.bindPopup(popup_7a5c61996d197762b978e2cc3b5d8ec3)
+        ;
+
+        
+    
+</script>
+</html>
